@@ -1,0 +1,143 @@
+@import "compass";
+@import "compass/reset";
+
+@import "variables";
+@import "mixins";
+@import "base";
+@import "fonts";
+
+//-webkit-filter: blur(1px) grayscale(0.8);
+
+.boxer-logo {
+
+  position: absolute;
+  top: 0;
+  left: 150px;
+  width: 60px;
+  height: 60px;
+}
+
+.left-pad {
+
+  padding-left: 100px !important;
+}
+
+footer {
+
+  padding-top: 30px;
+  font-family: $font-secondary;
+  font-weight: 300;
+  color: rgba(184, 184, 184, 0.8);
+}
+
+.gray {
+
+  background-color: rgba(184, 184, 184, 0.2) !important;
+}
+
+article .how {
+
+  width: 100%;
+  min-height: 80vh !important;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.cell {
+  padding: 20px 20px;
+}
+
+.showcase {
+
+  float: left;
+  font-family: $font-primary;
+  font-weight: 300;
+  font-size: 6em;
+  padding-right: 7px;
+  padding-left: 30px;
+
+  color: rgba(184, 184, 184, 0.8);
+}
+
+.splash-image {
+
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: 90%;
+  background: url(../images/big-optimized.jpg) no-repeat center center fixed;
+  background-size: cover;
+  -webkit-filter: blur(2px) grayscale(0.1);
+  transform: scale(1.03);
+
+}
+
+.splash-article {
+
+  background: url(../images/big-optimized.jpg) no-repeat center center;
+  //position: fixed;
+  //left: 0;
+  //right: 0;
+  //z-index: 9999;
+  background-size: cover;
+  width: 100%;
+  height: 90%;
+}
+
+.box-fill {
+
+  width: 100%;
+  height: 100%;
+}
+
+.box-third {
+  width: 100%;
+  height: 35%;
+}
+
+.box-placeholder {
+
+  width: 100%;
+  height: 90vh;
+}
+
+.screen-third {
+
+  width: 100%;
+  height: 30vh;
+}
+
+.screen-fourth {
+
+  width: 100%;
+  height: 15vh;
+}
+
+.box-center {
+
+  display: block;
+  margin: 0 auto;
+}
+
+.margin-bottom {
+
+  margin-bottom: 20px !important;
+}
+
+.input-text {
+
+   /* css 3 */
+ border-radius:5px !important;
+ /* mozilla */
+ -moz-border-radius:5px !important;
+ /* webkit */
+ -webkit-border-radius:5px !important;
+}
+
+.top-pad {
+
+  padding: 15px !important;
+}
